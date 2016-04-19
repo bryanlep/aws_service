@@ -35,7 +35,7 @@ defmodule AWSService.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    [{:aws_auth, path: "/home/bryan/source/apps/elixir_utilities/aws_auth"}]
+    [{:aws_auth, git: "git://github.com/shanelep/aws_auth.git"}]
   end
 
 end
